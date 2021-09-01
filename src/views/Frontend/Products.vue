@@ -179,7 +179,17 @@ export default {
             this.products = res.data.products;
             this.isLoading = false;
           } else {
-            console.log('get-error');
+            this.$moshaToast({
+              title: 'ERROR',
+            },
+            {
+              showIcon: true,
+              showCloseButton: true,
+              timeout: 3000,
+              swipeClose: true,
+              type: 'warning',
+              transition: 'slide',
+            });
           }
           // emitter.emit('isLoading', this.isLoading = false);
         })
