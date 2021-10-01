@@ -5,12 +5,9 @@ Using Vue x3 | Eslint | Bootstrap5 | Axios | Material-design | mitt
 
 
 This repository contains:
-
-    1. Order and inventory management 
-    
-    2. Content management
-    
-    3. Pricing and promotions
+  1. Order and inventory management 
+  2. Content management
+  3. Pricing and promotions
 
 ## Project setup
 ```
